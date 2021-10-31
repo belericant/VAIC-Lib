@@ -1,0 +1,35 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.bin
+*.elf
+
+# PROS
+pros/
+pros/bin/
+.vscode/
+compile_commands.json
+temp.log
+temp.errors
+*.ini
+.d/
+.DS_Store
+
+# CLion
+.idea/
+cmake-build-debug/
+
+# Python
+Pipfile.lock
+__pycache__
+*.pyc
+build/
+
+# Toolchain (don't need for ai)
+toolchain
+
+# Trained models (too much space)
+jetson/python/training/models/*
+*.pkl
